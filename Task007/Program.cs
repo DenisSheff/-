@@ -9,4 +9,18 @@
 
 Console.Write("Enter your number: ");
 int number = int.Parse(Console.ReadLine());
-Console.WriteLine(number % 10);
+if ((number > 99 && number < 999) || (number < -99 && number > -999))
+{
+	int lastNumber = number % 10;
+	if (lastNumber < 0)
+	{
+		lastNumber = lastNumber * (-1);
+	}
+	Console.WriteLine(lastNumber);
+}
+else
+{
+	Console.WriteLine("Incorrect number");
+}
+
+
