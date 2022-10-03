@@ -9,5 +9,5 @@
 */
 
 Console.Write("Enter your number: ");
-double number = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Square of {0} is {1}", number, Math.Pow(number, 2));
+int number = int.Parse(Console.ReadLine()); //конвертирует строку в целое число (string to int)
+Console.WriteLine("Square of {0} is {1}", number, Math.Pow(number, 2)); //команда перемножает само число на себя

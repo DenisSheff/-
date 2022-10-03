@@ -6,33 +6,33 @@
 */
 
 Console.Write("Enter weekday number: ");
-int WeekDayNumber = int.Parse(Console.ReadLine());
+int weekDayNumber = int.Parse(Console.ReadLine());
 
-if (WeekDayNumber == 1)
+switch (weekDayNumber)
 {
-	Console.WriteLine("It is Monday!");
+	case 1:
+		Console.WriteLine("It is Monday!");
+		break;
+	case 2:
+		Console.WriteLine("It is Tuesday!");
+		break;
+	case 3:
+		Console.WriteLine("It is Wednesday!");
+		break;
+	case 4:
+		Console.WriteLine("It is Thursday!");
+		break;
+	case 5:
+		Console.WriteLine("It is Friyaaaaay!");
+		break;
+	case 6:
+		Console.WriteLine("It is Saturday!");
+		break;
+	case 7:
+		Console.WriteLine("It is Sunday!");
+		break;
+	default:
+		Console.WriteLine("Wrong number.");
+		break;
 }
-if (WeekDayNumber == 2)
-{
-	Console.WriteLine("It is Tuesday!");
-}
-if (WeekDayNumber == 3)
-{
-	Console.WriteLine("It is Wednesday!");
-}
-if (WeekDayNumber == 4)
-{
-	Console.WriteLine("It is Thursday!");
-}
-if (WeekDayNumber == 5)
-{
-	Console.WriteLine("It is Friyaaaaay!");
-}
-if (WeekDayNumber == 6)
-{
-	Console.WriteLine("It is Saturday!");
-}
-if (WeekDayNumber == 7)
-{
-	Console.WriteLine("It is Sunday!");
-}
+

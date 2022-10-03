@@ -16,3 +16,12 @@ if (number > 0)
 		n++;
 	}
 }
+else
+{
+	n = number;
+	while (n <= number * (-1))
+	{
+		Console.Write(n + ", ");
+		n++;
+	}
+}
