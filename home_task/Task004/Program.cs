@@ -40,3 +40,4 @@ else
 }
 
 Console.WriteLine("Highest number is: " + max);
+

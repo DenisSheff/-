@@ -23,6 +23,13 @@ int max = firstNumber;
 if (firstNumber < secondNumber)
 {
 	max = secondNumber;
+	Console.WriteLine("Highest number is: " + max);
+}
+else
+{
+	if (firstNumber == secondNumber)
+	{
+		Console.WriteLine("You chose equal numbers.");
+	}
 }
 
-Console.WriteLine("Highest number is: " + max);
