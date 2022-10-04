@@ -1,4 +1,5 @@
-﻿Console.Write("Enter your first number: ");
+﻿Console.Clear();
+Console.Write("Enter your first number: ");
 int firstNumber = int.Parse(Console.ReadLine());
 Console.Write("Enter your second number: ");
 int secondNumber = int.Parse(Console.ReadLine());
