@@ -14,6 +14,16 @@ int firstNumber = int.Parse(Console.ReadLine());
 Console.Write("Enter second number: ");
 int secondNumber = int.Parse(Console.ReadLine());
 
+/*
+int max = Math.Max(firstNumber, secondNumber);
+int min = Math.Min(firstNumber, secondNumber);
+int square = min * min;
+if (square == max)
+{
+
+}
+*/
+
 int firstSquare = firstNumber * firstNumber;
 int secondSuqare = secondNumber * secondNumber;
 
