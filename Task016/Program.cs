@@ -20,13 +20,12 @@ int secondSuqare = secondNumber * secondNumber;
 if (firstSquare == secondNumber)
 {
 	Console.WriteLine($"The number {firstNumber} is square of the {secondNumber}.");
-	return;
 }
-if (secondSuqare == firstNumber)
+else if (secondSuqare == firstNumber)
 {
 	Console.WriteLine($"The number {secondNumber} is square of the {firstNumber}.");
-	return;
 }
-Console.WriteLine("Your numbers are incorrect to be square of each other.");
-
-
+else
+{
+	Console.WriteLine("Your numbers are incorrect to be square of each other.");
+}
