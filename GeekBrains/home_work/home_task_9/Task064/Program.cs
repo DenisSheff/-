@@ -10,17 +10,16 @@ N = 8 -> "8, 6, 4, 2,"
 Console.Clear();
 Console.WriteLine("Enter a value: ");
 int number = int.Parse(Console.ReadLine());
-int newNumber = 1;
 ShowEven(number);
-
 
 void ShowEven(int n)
 {
-	Console.Write(newNumber + " ");
-	if (newNumber >= number)
+
+	if (number % 2 == 0)
 	{
-		return;
+		number -= 2;
+		Console.WriteLine(number + " ");
 	}
-	newNumber++;
-	ShowEven(number);
+	ShowEven(n - 1);
 }
+
